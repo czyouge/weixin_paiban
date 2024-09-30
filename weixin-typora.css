@@ -1,0 +1,177 @@
+/* 正文设置 */
+body {
+    font-size: 15px;
+    text-align: justify; /* 两端对齐 */
+    line-height: 1.75; /* 行间距 1.75 */
+    font-family: '微软雅黑';
+    max-width: 100%;
+    margin: 0 0 0 0;          /* 让页面内容水平居中 */
+    padding: 0px;           /* 设置页面内容的内边距 */
+    letter-spacing: 0.5px; /* 设置字间距为1像素 */
+  }
+  
+  p {
+    font-size: 15px;
+    font-family: '微软雅黑';
+    margin-bottom: 1.75em; /* 段落之间空一行 */
+    line-height: 2.35;
+  }
+  
+  a {
+    color: #5A6B96; /* 设置链接颜色为蓝色 */
+    text-decoration: none; /* 移除链接的下划线 */
+    font-family: '微软雅黑';
+  }
+  
+  /* 一级标题设置 */
+  h1 {
+    font-size: 16px;
+    font-family: '微软雅黑';
+    text-align: center; /* 居中 */
+    font-weight: bold; /* 加粗 */
+    margin-top: 1.9em;
+    margin-bottom: 1.9em;
+    border: none;          /* 去掉下方的边框 */
+    text-decoration: none; /* 去掉下划线 */
+  }
+  
+  /* 二级标题设置 */
+  h2 {
+    font-size: 15px;
+    font-family: '微软雅黑';
+    text-align: left; /* 左对齐 */
+    font-weight: bold; /* 加粗 */
+    border: none;          /* 去掉下方的边框 */
+    text-decoration: none; /* 去掉下划线 */
+  }
+  
+  /* 三级标题设置 */
+  h3 {
+    font-size: 15px;
+    font-family: '微软雅黑';
+    text-align: left; /* 左对齐 */
+    font-weight: normal; /* 不加粗 */
+    border: none;          /* 去掉下方的边框 */
+    text-decoration: none; /* 去掉下划线 */
+  }
+  
+  h4 { /* 链接样式 */
+    display: list-item; /* 将 h4 设为列表项 */
+    list-style-type: disc; /* 使用圆点作为列表项符号 */
+    margin-left: 20px; /* 设置列表项的缩进 */
+    font-size: 15px;
+    font-family: '微软雅黑';
+    color: #7b0c00;
+    font-family: sans-serif, 'Microsoft YaHei';
+    text-align: left;
+    font-weight: normal; 
+    line-height: 1.75;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  h4 + h4 { /* 论文+链接样式 */
+    display: list-item; /* 将 h4 设为列表项 */
+    list-style-type: disc; /* 使用圆点作为列表项符号 */
+    margin-left: 20px; /* 设置列表项的缩进 */
+    font-size: 15px;
+    font-family: '微软雅黑';
+    color: #7b0c00;
+    font-family: sans-serif, 'Microsoft YaHei';
+    text-align: left;
+    font-weight: normal; 
+    margin-top: -0.6em;
+    line-height: 1.75;
+    margin-bottom: 1.5em;
+  }
+  
+  h5 { /* 图注样式 */
+    font-size: 12px;
+    font-family: '微软雅黑';
+    color: rgb(136, 136, 136);
+    font-family: 'Microsoft YaHei';
+    text-align: left; /* 左对齐 */
+    font-weight: normal; /* 不加粗 */
+    font-style: italic;
+    line-height: 1.5;
+    margin-top: -1.2em;
+    margin-bottom: 1.5em;
+  }
+  
+  h5 + h5 { /* 参考链接样式 */
+    font-size: 12px;
+    font-family: '微软雅黑';
+    color: rgb(136, 136, 136);
+    font-family: 'Microsoft YaHei';
+    text-align: left; /* 左对齐 */
+    font-weight: normal; /* 不加粗 */
+    font-style: italic;
+    line-height: 1.5;
+    margin-top: 0.1em;
+    margin-bottom: 0em;
+  }
+  
+  /* 引用格式设置 */
+  blockquote {
+    font-size: 15px;
+    font-family: '微软雅黑';
+    color: gray; /* 灰色 */
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 4px solid #ddd; /* 引用条 */
+    margin-bottom: 1.2em;
+  }
+  
+  /* 加粗文本设置 */
+  strong {
+    color: #3daad6; /* 颜色采用 3daad6 */
+    font-weight: bold; /* 加粗 */
+  }
+  
+  ul {
+    font-size: 15px;       /* 设置字体大小为 15px */
+    list-style-type: disc; /* 使用圆点作为无序列表的符号 */
+    padding-left: 20px;    /* 设置左侧缩进为 20px */
+  }
+  
+  ul li {
+    margin-top: -0.4em;
+    margin-bottom: -1em;   /* 设置每一项之间的距离为 10px */
+  }
+  
+  ol {
+    font-size: 15px;       /* 设置字体大小为 15px */
+    list-style-type: decimal; /* 使用数字作为有序列表的符号 */
+    padding-left: 20px;    /* 设置左侧缩进为 20px */
+  }
+  
+  ol li {
+    margin-top: -0.4em;
+    margin-bottom: -1em;    /* 设置每一项之间的距离为 10px */
+  }
+  
+  img {
+    display: block;            /* 将图片设为块级元素以便居中 */
+    margin-left: auto;         /* 左边距自动 */
+    margin-right: auto;        /* 右边距自动，图片水平居中 */
+    margin-top: 1.5em;           /* 图片上方的间距为1个字体高度 */
+    margin-bottom: 1.5em;        /* 图片下方的间距为1个字体高度 */
+    max-width: 100%;           /* 确保图片不会超出父容器宽度 */
+    height: auto;              /* 图片的高度根据宽度自动调整 */
+  }
+  
+  
+  em { /* 图注样式 */
+    font-size: 12px;
+    font-family: '微软雅黑';
+    color: rgb(136, 136, 136);
+    font-family: 'Microsoft YaHei';
+    text-align: left; /* 左对齐 */
+    font-weight: normal; /* 不加粗 */
+    font-style: italic;
+    line-height: 1.5;
+    margin-top: -1.2em;
+    margin-bottom: 1.5em;
+  }
+  
+  
